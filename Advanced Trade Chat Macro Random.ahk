@@ -1,7 +1,7 @@
 ﻿toggle = 0
 #MaxThreadsPerHotkey 2
 
-; F5 Starts macro F10 to refresh/stop
+; F5 Starts and stops macro F10 to refresh
 
 NumberOfTexts = 10 ; how many differant strings you have (if you want more than 10 dont forget to add it as a case)
 delay = 120000 ; default 120000 (2 mins)
@@ -17,8 +17,6 @@ delay = 120000 ; default 120000 (2 mins)
 9 = Nine
 10 = Ten
 
-
-Output = %Rand%
 
 F5::
 Toggle :=!Toggle
